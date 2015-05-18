@@ -1,0 +1,47 @@
+{
+    "resourceType":"Patient",
+    "id":"1",
+    "meta":{
+        "versionId":"4",
+        "lastUpdated":"2015-03-07T14:31:05.000-05:00"
+    },
+    "text":{
+        "status":"generated",
+        "div":"<div><div class=\"hapiHeaderText\"> Gajen <b>SUNTHARA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1337</td></tr><tr><td>Date of birth</td><td><span>06 August 1981</span></td></tr></tbody></table></div>"
+    },
+    "identifier":[
+        {
+            "system":"http://www.kh-hh.de/mio/patients",
+            "value":"1337"
+        }
+    ],
+    "name":[
+        {
+            "use":"official",
+            "family":[
+                "Sunthara"
+            ],
+            "given":[
+                "Gajen"
+            ]
+        },
+        {
+            "use":"maiden",
+            "family":[
+                "Sunthara"
+            ],
+            "given":[
+                "Gajen"
+            ]
+        }
+    ],
+    "birthDate":"1981-08-06",
+    "maritalStatus":{
+        "coding":[
+            {
+                "system":"http://hl7.org/fhir/v3/MaritalStatus",
+                "code":"M"
+            }
+        ]
+    }
+}
